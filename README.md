@@ -1,3 +1,7 @@
+# Mikey Rogachevsky's Fork
+https://github.com/sf-wdi-31/functions-training.git
+> I found most of the problems simple and straight-forward.  All except printPyramid which I am still working through.
+
 # Training - Javascript Functions
 
 Fork this repository to your GitHub account, then clone your GitHub copy onto your computer. Write the functions assigned below in the file `functions.js`. Use snippets to run and observe the results of your code.

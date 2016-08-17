@@ -90,3 +90,13 @@ function printTriangle(length) {
 }
 
 // printTriangle(5);
+
+function printPyramid(length) {
+  var stars = "            * ";
+  for (var i = 1; i <= length; i++){
+    console.log(stars);
+    stars = stars.slice(1).concat(" * ");
+  }
+}
+
+printPyramid(10)
