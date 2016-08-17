@@ -26,4 +26,11 @@ function toTheNthPower(number, power) {
 }
 
 var result = toTheNthPower(4, 5);
-console.log(result);
+// console.log(result);
+
+function areaOfACircle(radius) {
+    return Math.PI * (radius * radius);
+}
+
+var result = areaOfACircle(2);
+// console.log(result);
