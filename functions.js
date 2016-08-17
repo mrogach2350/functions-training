@@ -34,3 +34,38 @@ function areaOfACircle(radius) {
 
 var result = areaOfACircle(2);
 // console.log(result);
+
+function pythagoreanTheorem(a, b) {
+    var c;
+    c = Math.pow(a, 2) + Math.pow(b, 2);
+    return Math.sqrt(c);
+}
+
+var result = pythagoreanTheorem(3, 4);
+// console.log(result);
+
+function isXEvenlyDivisibleByY(x, y) {
+  if (x % y === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+var result = isXEvenlyDivisibleByY(99, 3);
+// console.log(result);
+
+function countVowels(word) {
+  var count = 0;
+  var vowels = ['a', 'e', 'i', 'o', 'u', 'y',
+    'A', 'E', 'I', 'O', 'U', 'Y']
+  for (i = 0; i < word.length; i++) {
+    if (vowels.indexOf(word[i]) !== -1){
+      count ++;
+    }
+  }
+  return count;
+}
+
+var result = countVowels("stealing");
+console.log(result);
