@@ -68,4 +68,25 @@ function countVowels(word) {
 }
 
 var result = countVowels("stealing");
-console.log(result);
+// console.log(result);
+
+function findWdi(arr) {
+  if (arr.indexOf("wdi") !== -1){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// console.log(findWdi([9,'Bart Simpson', true, 'wdi']));
+// console.log(findWdi(['a','b','c']));
+
+function printTriangle(length) {
+  var stars = "*";
+  for (i = 1; i <= length; i++){
+    console.log(stars);
+    stars += "*";
+  }
+}
+
+// printTriangle(5);
